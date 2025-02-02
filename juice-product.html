@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juice</title>
+    <meta name="description" content="Juice Product - Project">
+    <meta name="robots" content="noindex, nofollow">
+
+    <!-- Add Jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./js/jquery.js"></script>
+
+    <!-- Add meta -->
+    <div id="meta"></div>
+</head>
+<body>
+    <!-- Header section -->
+    <header id="header"></header>
+    <!-- Main section -->
+    <main class="product">
+        <section class="item">
+            <div>
+                <img src="./img/juice.png" alt="Juice Vape">
+            </div>
+            <div>
+                <h1>Vape Daily Juice E Liquid</h1>
+                <p class="price">$5.65</p>
+                <hr>
+                <p class="desc">Coming in first with a perfect score across the board is a drink vape liquid which, once you open the cap, will fill your senses with the wonderful aroma of an array of drink. You'll feel an inundation of sweet drink flavor from the very first pull.</p>
+                <form id="quantity">
+                    <div>
+                        <button id="minus"><i class="fas fa-minus"></i></button>
+                        <input type="number" value="1" disabled>
+                        <button id="plus"><i class="fas fa-plus"></i></button>
+                    </div>
+                    <input type="submit" value="Buy">
+                </form>
+            </div>
+        </section>
+        <section class="description">
+            <h2>Description</h2>
+            <ul>
+                <li>Tested by a Government Approved Lab</li>
+                <li>FDA Sourced Ingredients, Pharma Grade Nicotine salts</li>
+                <li>Rich Flavour Profile</li>
+                <li>VG:PG 50:50 Ratio</li>
+                <li>Nicsalts:30mg/30ml</li>
+            </ul>
+        </section>
+        <section class="related">
+            <h2>Related Products</h2>
+            <div>
+                <div>
+                    <div>
+                        <a href="./disposable-product.html"><img src="./img/disposible.png" alt="Disposible"></a>
+                    </div>
+                    <h4>Geek Bar Pulse X</h4>
+                    <p>$33.99</p>
+                    <a href="./disposable-product.html">Buy<i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div>
+                    <div>
+                        <a href="./pod-product.html"><img src="./img/vape.png" alt="OXVA"></a>
+                    </div>
+                    <h4>OXVA XLIM Go</h4>
+                    <p>$20.00</p>
+                    <a href="./pod-product.html">Buy<i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer id="footer"></footer>
+</body>
+</html>
